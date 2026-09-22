@@ -7,6 +7,8 @@
 // @version      1.0
 // @match        *://*.catwar.su/*
 // @match        *://*.catwar.net/*
+// @updateURL    https://github.com/dirtysystem/catscripts/raw/refs/heads/main/DES/square.user.js
+// @downloadURL  https://github.com/dirtysystem/catscripts/raw/refs/heads/main/DES/square.user.js
 // @run-at       document-idle
 // @grant        GM_addStyle
 // ==/UserScript==
