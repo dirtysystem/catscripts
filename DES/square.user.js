@@ -120,6 +120,7 @@
         }
         #error {
             z-index: 10001 !important;
+            top: 10% !important;
         }
         .cat_tooltip a,
         .online {
