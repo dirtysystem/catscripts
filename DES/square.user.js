@@ -67,7 +67,6 @@
         .ui-soft-box,
         .ui-btn,
         .site-quicknav,
-        .site-quicknav__btn,
         .ui-details,
         .ui-input,
         .tag_box,
@@ -84,6 +83,10 @@
         .settings-nav,
         .settings-warning,
         .site-quicknav__chars-menu,
+        .ghost-block,
+        .rabbits-coupon-card,
+        .text-preview-modal__page,
+        .site-quicknav__btn,
         #blogs-reload,
         #mit,
         #notepad,
@@ -93,7 +96,7 @@
         #info,
         #footer {
             border-radius: 4px !important;
-            border: 1px groove #00000050 !important;
+            border: 1px groove #00000075 !important;
             border-style: solid !important;
         }
         .settings-nav-item {
@@ -106,7 +109,21 @@
             border-radius: 5px !important;
         }
         .compact-info-panel {
-            max-height: 360px !important;
+            max-height: 349px !important;
+        }
+        .cat_tooltip,
+        #error {
+            background: rgba(var(--ds-info-rgb), 1) !important;
+            border: 2px solid var(--ds-primary) !important;
+            border-radius: 0 !important;
+            color: var(--ds-info-text) !important; 
+        }
+        #error {
+            z-index: 10001 !important;
+        }
+        .cat_tooltip a,
+        .online {
+            color: var(--ds-info-text) !important; 
         }
     `;
 
