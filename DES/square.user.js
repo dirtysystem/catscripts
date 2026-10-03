@@ -47,7 +47,12 @@
         #chat_float {
             max-height: 350px !important;
         }
-        #fteams-table {
+        #fteams-table,
+        #fightPanel,
+        .tf-color {
+            color: var(--ds-info-text, inherit) !important;
+        }
+        #fteams-table{
             background-color: rgba(var(--ds-info-rgb), 1) !important;
         }
         .game-topbar {
@@ -125,6 +130,13 @@
         .cat_tooltip a,
         .online {
             color: var(--ds-info-text) !important; 
+        }
+        #compact_info_wrap,
+        #compact_actions_wrap {
+            top: 0px !important;
+        }
+        .infos {
+            padding: 0 5px 8px 5px !important;
         }
     `;
 
