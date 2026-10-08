@@ -25,6 +25,7 @@
         body {
             overflow-y: scroll !important;
             scrollbar-color: rgba(128, 128, 128, 0.4) transparent !important;
+            touch-action: manipulation !important;
         }
         #compact_info,
         #compact_actions {
@@ -102,6 +103,11 @@
         #footer {
             border-radius: 4px !important;
             border: 1px groove #00000075 !important;
+            border-style: solid !important;
+        }
+        .mess_tr,
+        .mess_td {
+            border: 1px groove #00000030 !important;
             border-style: solid !important;
         }
         .settings-nav-item {
